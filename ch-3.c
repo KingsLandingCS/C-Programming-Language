@@ -1,21 +1,21 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <math.h>
 
 int main()
 {
 
-    char name[25];
-    int age;
+    double A = sqrt(9);
+    double B = pow(2, 4);
+    int C = round(3.14);
+    int D = ceil(3.14);
+    int E = floor(3.99);
+    double F = fabs(-100);
+    double G = log(3);
+    double H = sin(45);
+    double I = cos(45);
+    double J = tan(45);
 
-    printf("\nWhat's your name?");
-    // scanf("%s", &name);
-    fgets(name, 25, stdin);
-
-    printf("\nHow old are you?");
-    scanf("%d", &age);
-
-    printf("\nHello %s, how are you", name);
-    printf("\nYou are %d years old", age);
+    printf("\n%lf", J);
 
     return 0;
 }
