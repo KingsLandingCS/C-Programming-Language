@@ -3,10 +3,12 @@
 main()
 {
 
-   float a, b, sum;
-   scanf("%f %f", &a, &b);
+   int a, b, sum;
 
+   printf("\n Enter value to A: ");
+   scanf("%d", &a);
+   printf("\n Enter Value to B: ");
+   scanf("%d", &b);
    sum = a + b;
-
-   printf("%f", sum);
+   printf("\n SUM = %d", sum);
 }
