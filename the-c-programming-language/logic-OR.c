@@ -4,7 +4,7 @@
 int main()
 {
 
-    float temp = 25;
+    float temp = -10000;
 
     if (temp <= 0 || temp >= 30)
     {
