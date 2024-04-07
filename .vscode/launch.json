@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/zubair/Desktop/My-work/CS/C-Programming-Language",
-      "program": "/home/zubair/Desktop/My-work/CS/C-Programming-Language/build/Debug/outDebug",
+      "cwd": "/home/zubair/Desktop/My-work/CS/C-Programming-Language/quiz-game-app",
+      "program": "/home/zubair/Desktop/My-work/CS/C-Programming-Language/quiz-game-app/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
