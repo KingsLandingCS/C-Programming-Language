@@ -20,11 +20,11 @@ int main(void)
     }
     else if (grade >= 60)
     {
-        printf("Congrats you got grade D!\n");
+        printf(" you got grade D!\n");
     }
     else if (grade >= 50)
     {
-        printf("Congrats you got grade F!\n");
+        printf("you got grade F!\n");
     }
     else
     {
