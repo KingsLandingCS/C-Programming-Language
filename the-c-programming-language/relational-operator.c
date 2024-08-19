@@ -6,17 +6,18 @@ int main(void)
     printf("height: ");
     scanf("%d", &height);
 
-    int weight = 0;
-    printf("weight: ");
-    scanf("%d", &weight);
+    // int weight = 0;
+    // printf("weight: ");
+    // scanf("%d", &weight);
 
-    if (height > 150 && weight > 50)
+    if (!(height > 150))
     {
-        printf("Good to ride!\n");
+        printf("Not tall enough!\n");
     }
     else
     {
-        printf("Not good to ride!\n");
+        printf("Tall enough!\n");
     }
+
     return 0;
 }
