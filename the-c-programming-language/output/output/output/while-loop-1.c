@@ -13,6 +13,7 @@ int main(void)
         {
             max = number;
         }
+        printf("max: %d\n", max);
     }
 
     printf("max: %d\n", max);
