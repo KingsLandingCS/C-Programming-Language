@@ -4,7 +4,7 @@ int main(void)
 {
     int i = 10;
 
-    while (1 < 20)
+    while (1 < 11)
     {
         printf("i: %d\n", i);
         i--;
