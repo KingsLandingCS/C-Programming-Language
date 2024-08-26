@@ -41,8 +41,11 @@ int main(void)
     printf("************************\n");
     for (double conv = initial; conv <= stop; conv += step)
     {
-        printf("%f %f\n", conv, conv * 3.28084); // 1 m = 3.28084 ft
+        printf("%-10.2f %-10.2f\n", // 10 spaces/columns/field for meters, 10 spaces/columns/field for feet, minus signs for alignment to the left
+               conv,
+               conv * 3.28084); // 1 m = 3.28084 ft
     }
+    printf("\n");
 
     return 0;
 }
