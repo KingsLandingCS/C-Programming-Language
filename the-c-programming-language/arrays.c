@@ -9,7 +9,7 @@
 int main(void)
 {
     int grade[] = {92, 85, 72, 73, 95};
-    
+
     for (int i = 0; i < 5; i++)
     {
         printf("grade[%d]=%d\n", i, grade[i]);
