@@ -25,11 +25,13 @@ float triple(float n)
 // Copy code
 // #include <stdio.h>
 // The program includes the standard input-output header file (stdio.h) to use the printf function for output.
+
 // 2. Function Prototype
 // c
 // Copy code
 // float triple(float n);
 // This is a function prototype that tells the compiler that a function named triple exists and takes one argument of type float. The function returns a float value.
+
 // 3. Main Function
 // c
 // Copy code
@@ -53,6 +55,7 @@ float triple(float n)
 // return 0;
 
 // The main function returns 0, indicating that the program executed successfully.
+
 // 4. Triple Function
 // c
 // Copy code
@@ -76,6 +79,7 @@ float triple(float n)
 // Inside the triple function, x is multiplied by 3, resulting in 15.0.
 // This 15.0 is returned and stored back in x.
 // The program then prints the value of x, which is now 15.0.
+
 // 6. Output
 // makefile
 // Copy code
