@@ -15,7 +15,7 @@
 int main(void)
 {
     int *a;
-    a = malloc(sizeof(int) * 5);
+    a = calloc(5, sizeof(int));
     a[0] = 1;
     a[1] = 5;
     a[2] = 7;
@@ -26,7 +26,10 @@ int main(void)
     {
         printf("a[%d] = %d\n", i, a[i]);
     }
+    free(a);
+
     return 0;
 }
 
 // Note: Stack grow downward and heap grow upward
+// Note: If we declare a variable without assigning it a value, it will have a garbage value in it
